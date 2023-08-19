@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <?xml-model href="labfour.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<products>
+    <product id="P1">
+        <name>iPhone 14</name>
+        <price>500</price>
+        <available_quantity>10</available_quantity>
+        <category>Electronics</category>
+    </product>
+    <product id="P2">
+        <name>Pride and Prejudice</name>
+        <price>30</price>
+        <available_quantity>60</available_quantity>
+        <category>Books</category>
+    </product>
+    <product id="P3">
+        <name>Blazer - Blue</name>
+        <price>150</price>
+        <available_quantity>5</available_quantity>
+        <category>Clothing</category>
+    </product>
+    <product id="P4">
+        <name>Kurthi - plain</name>
+        <price>50</price>
+        <available_quantity>20</available_quantity>
+        <category>Clothing</category>
+    </product>
+</products>
