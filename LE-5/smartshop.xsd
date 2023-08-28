@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="products">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="product" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="stringType" />
+                            <xs:element name="price" type="priceType" />
+                            <xs:element name="description" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="priceType">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="1" />
+            <xs:maxInclusive value="99999999999" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="stringType">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"></xs:minLength>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
