@@ -1,0 +1,39 @@
+.head{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.head1{
+    padding: 60px;
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 10px;
+    font-size: 70px;
+    color: rgb(167, 167, 203);
+}
+
+footer {
+    text-align: center;
+    padding: p5x;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+
+button{
+    margin: 50px;
+    padding: 20px;
+    border: 20px;
+    border-radius: 10px;
+    background-color:cadetblue;
+}
+
+#bookList{
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+    background-color:antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    border: 50px;
+}
