@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Products</title>
+</head>
+<body>
+    <header>
+        <p>Products catalogue</p>
+    </header> 
+    <div class="sticky">
+        <div id="search-container">
+            <div id="search-bar">
+                <input type="text" id="search-input" placeholder="Search by keyword">
+                <button id="search-button">Search</button>
+            </div>
+            <select id="sort-select" style="float: right;">
+                <option value="name">Sort by Name</option>
+                <option value="price">Sort by Price</option>
+            </select>
+        </div>
+    </div>
+    <div id="product-container"></div>
+
+    <script src="script.js">  </script>
+
+    <footer>
+        <p>&copy; ancybinny10@2023 <br>
+        <a href="mailto:ancybinny20@gmail.com">ancybinny20@gmail.com</a></p>
+    </footer>
+</body>
+</html>
